@@ -4,8 +4,11 @@ Script hecho en bash para la automatizacion de varias tareas relacionadas con la
 Para lo que son algunas opciones que son los cambios de direcciones MAC en las interfaces, se requiere usuario root
 # Comandos
 git clone https://github.com/DarknetGhost/macchanger
+
 cd macchanger
+
 chmod +x macchanger.sh
+
 ./macchanger
 
 # Screenshots

@@ -17,8 +17,6 @@ trap ctrl_c INT
 
 clear
 
-MAC_Original=$(ifconfig | grep -A 6 "wlp0s20f3" | grep ether | awk '{print $2}')
-
 function MAC_Aleatoria(){
   if [[ $USER != "root" ]]; then
     echo -e "\n${redColour}[!] Necesitas ser usuario root para esta opcion\n\n"
